@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<div class="login-form  p-5">
+    <h1 class="text-center">Smart Login System</h1>
+    <div class="form-group">
+        <label for="userName"></label>
+        <input type="text" id="userName" placeholder="Enter Your name" class="form-control">
+    </div>
+    <div class="form-group">
+        <label for="userEmail"></label>
+        <input type="email" id="userEmail" placeholder="Enter Your Email" class="form-control">
+        <div class="alert alert-danger d-none" id="alert">
+            <p>Email must begin with lowercase followed by @ then 3 to 8 characters and end with .com</p>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="userPassword"></label>
+        <input type="password" id="userPassword" placeholder="Enter Your Password" class="form-control">
+        <div class="alert alert-danger d-none" id="passAlert">
+            <p>Password must begin with uppercase followed by 3 digits and end with 3 to 5 characters</p>
+        </div>
+    </div>
+    <div id="success" class="text-success text-center"></div>
+    <div id="error" class="text-danger text-center"></div>
+    <button class="form-control text-center mt-5" id="signUpBtn">Sign Up</button>
+    <button class="form-control text-center mt-5 d-none" id="loginBtn">login</button>
+    <p class="text-white text-center pt-3">You have an account? <a class="text-white" href="index.html">Sign In</a></p>
+    
+</div>
+
+<script src="js/script.js"></script>
+</body>
+
+</html>
+
+<!--  -->

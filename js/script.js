@@ -107,8 +107,6 @@ function matchLoginInfo() {
 }
 // ----------------------------------------------------------------------------
 function goHome() {
-    // window.open("homePage.html")
-    // window.location.assign("http://127.0.0.1:5500/Session%209/Asssignment%204%20JS/homePage.html") ;
     window.location.assign("homePage.html");
 }
 // ----------------------------------------------------------------------------
